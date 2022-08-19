@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         
     }
-    
+    // BUTONA TIKLANILDIĞNDA SİLME İŞLEMİ GERÇEKLEŞTİRİLDİ
     @IBAction func silTiklandi(_ sender: Any) {
         
         let kaydedilenNot = UserDefaults.standard.object(forKey: "not")
